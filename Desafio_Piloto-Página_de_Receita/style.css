@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --titulo: 32px Arial medium;
+    -titulo-3: 22px Arial medium;;
+}
+
+body{
+    background-color: #d9d9d9;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font: var(--titulo);
+}
+
+h3{
+    font: var(--titulo-3);
+}
